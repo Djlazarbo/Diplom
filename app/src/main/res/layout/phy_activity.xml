@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nfl"
+    android:layout_weight="4"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+        android:padding="12dp"
+        android:shadowColor="#FFC107"
+        android:shadowRadius="2"
+        android:text="Описания курса"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/phy_text"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:padding="10dp"
+        android:shadowColor="#FFC107"
+        android:shadowRadius="2"
+        android:text="Программа курса"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:text="Механика"
+
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="Молекулярная физика. Тепловая физика"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:text="Электромагнетизм"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="Колебания и волны"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="Оптика. Атомная и ядерная физика"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="Астрономия"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <Button
+
+            android:id="@+id/button"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+
+            android:text="Button" />
+    </RelativeLayout>
+
+</LinearLayout>

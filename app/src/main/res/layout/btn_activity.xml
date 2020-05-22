@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nfl"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="50dp"
+        android:padding="12dp"
+        android:shadowColor="#FFC107"
+        android:shadowRadius="2"
+        android:text="Описания курса"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="12dp"
+        android:text="@string/btn_text"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="265dp"
+        android:padding="12dp"
+        android:shadowColor="#FFC107"
+        android:shadowRadius="2"
+        android:text="Программа курса"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:padding="14dp"
+        android:text="Информация и кодирование"
+        android:textSize="17sp"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:padding="14dp"
+        android:gravity="center"
+        android:text="Системы счисления"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:padding="14dp"
+        android:text="Логика и алгоритмы"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:padding="14dp"
+        android:text="Обработка информации"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:padding="14dp"
+        android:text="Архитектура компьютеров и сетей"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:padding="14dp"
+        android:text="Поиск, хранение информации"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:padding="14dp"
+        android:text="Теории алгоритмов"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:padding="14dp"
+        android:text="Программирование"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:padding="14dp"
+        android:text="Моделирование, компэксперимент"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:padding="14dp"
+        android:text="ДЕМО-ВЕРСИИ ЕГЭ 2019, 2020"
+        android:textSize="17sp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="550dp"
+        android:text="Button" />
+
+
+</FrameLayout>
